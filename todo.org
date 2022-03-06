@@ -1,0 +1,23 @@
+
+* For Web Scrapping
+** DONE Add dates to soccer games to delineate pre/post covid
+** DONE Find COVID guidelines across all leagues
+
+* For EDA
+** DONE filter teams that did not play all seasons looked at
+*** That way we can accurately compare throughout the years
+** DONE instead of looking at teams based on home wins, look at total wins. 
+*** That way we can look at the best vs the worst
+** DONE Will have to normalize attendance by average attendance, to try to account for "stadium size"
+*** Important if we are going to look at a classification based on attendance rather than just covid/no covid
+** DONE Repeat violin plot but instead of wins/home wins look at attendance
+*** Understand how attendance has changed throughout the years
+** DONE Based on the worst performing 5 teams (based on total wins or home wins) see how those teams perform at away games.
+*** If they remain the same, then we know the decrease perfomance effect is a home thing, otherwise is overall        
+** TODO Use a stat to see if there is a significant change for the poor teams performance in later years. chisquare?
+*** Add quantitative results to our analysis
+
+
+* For Modeling
+** TODO Can we predict a home win based on attendance? 
+** TODO Repeat the model above, but for top performers vs bottom performers?
